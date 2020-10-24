@@ -1,0 +1,15 @@
+.custom-nav  a{
+    border-radius:3px;
+    text-align: center;
+    padding:4px 15px 4px 15px;
+    background-color: #FFC729;
+    color:black;
+    font-weight:600;
+    text-decoration: none !important;
+}
+
+.custom-nav  a:hover{
+    background-color: #ffbb00;
+
+}
+
