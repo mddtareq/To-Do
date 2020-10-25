@@ -87,7 +87,7 @@ const Add = () => {
             <Row>
                 <Col xs={12} sm={{ span: 10, offset: 1 }} md={{ span: 8, offset: 2 }} lg={{ span: 6, offset: 3 }} xl={{ span: 6, offset: 3 }}>
                     <h3 className="text-center mt-4 mb-3 heading" >Add Your Task</h3>
-                    <input id='task-text' onChange={change} className="from-control" type="text" required />
+                    <input id='task-text' onChange={change} className="from-control pl-4" type="text" required />
                     <input onClick={submit} className="submit-button" type="submit" value="Add" />
                 </Col>
             </Row>
