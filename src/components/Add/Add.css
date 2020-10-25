@@ -22,3 +22,21 @@ input{
 .heading{
     color:rgb(255, 255, 255);
 }
+
+.custom-nav  button{
+    border-radius:3px;
+    text-align: center;
+    padding:4px 15px 4px 15px;
+    background-color: #FFC729;
+    color:black;
+    font-weight:600;
+    border: none!important;
+    outline:none!important;
+}
+
+.custom-nav  button:hover{
+    color:black;
+    border: none;
+    background-color: #ffbb00;
+
+}
