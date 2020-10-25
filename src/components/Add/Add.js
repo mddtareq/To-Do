@@ -94,9 +94,9 @@ const Add = () => {
             <Row>
                 <Col xs={12} sm={{ span: 10, offset: 1 }} md={{ span: 8, offset: 2 }} lg={{ span: 6, offset: 3 }} xl={{ span: 6, offset: 3 }}>
                     <div className="custom-nav text-center mt-3">
-                        <button onClick={() => setCategory('all')} className="mr-3" to="/all">All</button>
-                        <button onClick={() => setCategory('active')} className="mr-3" to="/active">Active</button>
-                        <button onClick={() => setCategory('done')} className="mr-3" to="/done">Done</button>
+                        <button onClick={() => setCategory('all')} className={`mr-3 ${category === 'all' ? 'custom-background' : ''}`}>All</button>
+                        <button onClick={() => setCategory('active')} className={`mr-3 ${category === 'active' ? 'custom-background' : ''}`} to="/active">Active</button>
+                        <button onClick={() => setCategory('done')} className={`mr-3 ${category === 'done' ? 'custom-background' : ''}`} to="/done">Done</button>
                     </div>
                 </Col>
             </Row>
